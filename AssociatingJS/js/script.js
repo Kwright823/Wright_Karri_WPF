@@ -1,6 +1,6 @@
-// Arrays
+//Expressions
 
-var muppetNames = ["Kermit", "Miss Piggy", "Gonzo", "Rizzo"]; //0,1,2,3
-
-console.log(muppetNames);
-
+var a = 2; //sets up our variable and defines it with 2
+var b;
+b = a + 3; //add 3 to a
+console.log(a);
