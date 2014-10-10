@@ -40,6 +40,9 @@ console.log("Sparky got" + " " + sparky + " " + "slices of pizza");
 
 //Average Shopping Bill
 
+var weekGrocery = [230, 300, 245, 280, 350]; //array index 0,1,2,3,4
+var averageGro = 
+console.log
 
 
 
