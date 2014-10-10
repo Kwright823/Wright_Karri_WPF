@@ -1,5 +1,6 @@
 // Karri Wright Oct. 9, 2014 Expression Worksheet
 
+//Dog Years
 //Calculate Sparky's age in human years
 
 var dogAge = 7;
@@ -12,7 +13,7 @@ var actAge = dogAge * humAge;
 console.log("Sparky is" + " " + humAge + " " + "human years old which is" + " " + actAge + " " + "in dog years");
 
 
-
+//Slice of Pie part 1
 //How many slices of pizza will each partygoer have
 
 var slicePerPizza = 9;
@@ -25,12 +26,20 @@ var slicePerPerson = slicePerPizza * pizzasOrdered / partyGoers;
 console.log("Each person ate" + " " + slicePerPerson + " " + "slices of pizza at the party.");
 
 
+//Slice of Pie part 2
 //How many slices will Sparky get?
 
 var partyPeople = 10
 var pizzas = 4
 var slices = 8
-var sparky = s
+//I am not sure how to make this math work to show how many Sparky will get
+var totalSlices = slices * pizzas / partyPeople;
+var sparky = totalSlices - 3;
+console.log("Sparky got" + " " + sparky + " " + "slices of pizza");
+
+
+//Average Shopping Bill
+
 
 
 
