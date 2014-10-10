@@ -42,13 +42,28 @@ console.log("Sparky got" + " " + sparky + " " + "slices of pizza");
 
 var weekGrocery = [230, 300, 245, 280, 350]; //array index 0,1,2,3,4
 //I want to total each week then divide by 5 weeks
-var monthTotal = 230+300+245+280+350;
+var monthTotal = 230+300+245+280+350;//total of all 5 weeks
 
-console.log("You have spent a total of" + " " + "$" + monthTotal + " " + "on groceries over 5 weeks. That is an average of" + " " + weekGrocery[(0+1+2+3+4)/5] + " " + "per week.");
+console.log("You have spent a total of" + " " + "$" + monthTotal + " " +
+    "on groceries over 5 weeks. That is an average of" + " " + weekGrocery[(0+1+2+3+4)/5] +
+    " " + "per week.");
 
 
 
 //Discounts
+
+var origPrice = 100.00
+var disCount = 20
+var salesTax = 6
+var description = "t-shirt"
+
+var withTax = 100.00 * .20 * .06;
+var withoutTax = 100.00 * .20;
+
+console.log("Your" + " " + description + " " +
+"was originally" + " " + origPrice + ", but after a" +
+disCount + "% discount, it is now $" + withoutTax + ", without tax, and $" +
+withTax + " " + "with tax.");
 
 
 
