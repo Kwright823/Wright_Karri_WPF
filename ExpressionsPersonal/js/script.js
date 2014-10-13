@@ -10,10 +10,9 @@ var timeFrame2 = prompt("How many months until the wedding?");
 
 var totalWeek = saveTotal * timeFrame1;
 var totalMonth = saveTotal2 * timeFrame2;
-//console.log(totalPerMonth); //print it out to console
+console.log(totalWeek); //print it out to console
+console.log(totalMonth)
 
-//var result = "The total you need to save per month is $" + totalPerMonth;
-//alert(result);
 
 alert ("If you save" + " " + "$" +saveTotal2 + " " + "a week, you will have" +
 " " + "$" + totalWeek + " " + "available to spend." +
