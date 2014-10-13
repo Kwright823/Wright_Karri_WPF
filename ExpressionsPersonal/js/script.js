@@ -15,10 +15,10 @@ var totalMonth = saveTotal2 * timeFrame2;
 //var result = "The total you need to save per month is $" + totalPerMonth;
 //alert(result);
 
-alert ("If you save" + " " + "$" + saveTotal2 + " " + "a week, you will have" +
-" " + totalWeek + " " + "available to spend." +
-" " + "Or if you save $" + " " + saveTotal + " " + "a month, you will have $" +
-" " + totalMonth + " " + "available to spend.");
+alert ("If you save" + " " + "$" +saveTotal2 + " " + "a week, you will have" +
+" " + "$" + totalWeek + " " + "available to spend." +
+" " + "Or if you save" + " " + "$" + saveTotal + " " + "a month, you will have" +
+" " + "$" + totalMonth + " " + "available to spend.");
 
 
 
