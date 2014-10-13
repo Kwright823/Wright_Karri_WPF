@@ -4,5 +4,6 @@
 
 var wood = prompt("How much wood do you have?");
 var woodChuck = prompt("How many wood chucks are there with you?");
-var distance = prompt("What is the distance we are looking at?");
 
+
+var totalWood
