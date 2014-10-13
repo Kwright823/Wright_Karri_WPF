@@ -2,13 +2,15 @@
 
 //How much money can I save before my friend's wedding next year?
 
+var saveTotal2 = prompt("How much do you have available per week?");
 var saveTotal = prompt("How much do you have available to save per month?");
 var timeFrame = prompt("How many months until the wedding?");
 var totalPerMonth = timeFrame * saveTotal;
 console.log(totalPerMonth); //print it out to console
 
-var result = "The total you need to save per month is $" + totalPerMonth;
-alert(result);
+//var result = "The total you need to save per month is $" + totalPerMonth;
+//alert(result);
+
 
 
 
