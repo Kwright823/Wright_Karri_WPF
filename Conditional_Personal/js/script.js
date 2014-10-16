@@ -7,3 +7,7 @@ var cold;
 if(weather === warm){
        wearATanktop();
 }
+if(weather === cold){
+        wearASweater();
+}
+console.log(weather);
