@@ -1,11 +1,7 @@
-//Prompt and Alert
+//Conditional Logic - Ternary Operators
 
-var width = prompt("We are calculating the area of a rectangle. \n Please enter the width");
-var height = prompt("Please enter the height.");
-var area = width * height;
-//console.log(area);//prints it out to console
+var age = 11;
+var book;
 
-var result = "The area of your rectangle is " + area + "sq ft"
-alert(result);
-
-
+book = (age < 10) ? "Green Eggs and Ham" : "The Time Machine";
+console.log(book);
