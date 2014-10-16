@@ -7,11 +7,13 @@ var cold = wearASweater;
 if(weather === warm){
        wearATanktop();
 }
-
+Console.log("You should wear a tank top");
 
 if(weather === cold){
         wearASweater();
 }
-console.log(weather);
+console.log("You should wear a sweater")
 
-var result = ("")
+//console.log(weather);
+
+//var result = ("")
