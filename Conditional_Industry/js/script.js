@@ -18,7 +18,8 @@ if((signArea - 5) < boardArea){
     console.log("The sign will fit on the display board!");
     alert("The sign will fit on the display board!")
 }else if((signArea - 5) >= boardArea){
-    console.log("The sign will not fit, please try a different sign.")
+    console.log("The sign will not fit, please try a different sign.");
+    alert("The sign will not fit, please try a different sign.")
 }
 
 
