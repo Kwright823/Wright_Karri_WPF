@@ -12,6 +12,13 @@ var boardArea = width * length;
 
 var signArea = signWidth * signLength;
 
-var willItFit = (signArea - 5) < boardArea;
+//if else
+
+if((signArea - 5) < boardArea){
+    console.log("The sign will fit on the display board!");
+    alert("The sign will fit on the display board!")
+}else if((signArea - 5) >= boardArea){
+    console.log("The sign will not fit, please try a different sign.")
+}
 
 
