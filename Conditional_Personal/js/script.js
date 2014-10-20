@@ -7,13 +7,11 @@ var weather = prompt("Is the weather warm or cold today?");
 console.log(weather);
 
 if(weather === "warm") {//if warm wear a tank top
-   // alert("Wear a tanktop!");//alert
     console.log("You should wear a tank top today!");//log info
-
+    alert("Wear a tanktop!");//alert
 
 }else if(weather === "cold"){//if cold wear a hoodie
-    //alert("Wear a hoodie!");
     console.log("You should wear a hoodie today!");
-
+    alert("Wear a hoodie!");
 
 }
