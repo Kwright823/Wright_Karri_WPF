@@ -2,8 +2,8 @@
 
 //will the sign fit on the sign board?
 
-var width = prompt("What is the width of the board?");
-var length = prompt("What is the length of the board?");
+var width = prompt("Lets find out if the sign will fit on the display board n/ What is the width of the display board?");
+var length = prompt("What is the length of the display board?");
 
 var signWidth = prompt("What is the width of the sign?");
 var signLength = prompt("What is the length of the sign?");
