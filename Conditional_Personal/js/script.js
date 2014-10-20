@@ -1,9 +1,8 @@
 //Karri Wright Conditionals Personal
 
-var weather = ["warm", "cold"];
+var weather = ["warm", "cold"](prompt("Is the weather warm or cold today?"));
 
-var weather = promt("Is is warm or cold outside?");
-    
+
 
 if (weather === "warm") {
     wearATanktop();
