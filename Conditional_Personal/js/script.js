@@ -1,12 +1,18 @@
 //Karri Wright Conditionals Personal
 
-var (weather == warm) = prompt("Is the weather warm or cold?");
-var warm;
+var weather = ["warm", "cold"];
 
-if(warm){
+var weather = promt("Is is warm or cold outside?");
+    
+
+if (weather === "warm") {
     wearATanktop();
     console.log("You should wear a tank top today!")
-}else{
+}
+
+if (weather === "cold"){
     wearASweater();
-    console.log("You should wear a  sweater!")
+    console.log("You should wear a sweater today!");
+
+
 }
