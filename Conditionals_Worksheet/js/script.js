@@ -79,4 +79,32 @@ var matinee = 7;
 var time = prompt("What time does the movie start?");
 var age = prompt("What is your age?");
 
+if(age >= 55){
+    console.log(age);
+    alert("The ticket price is $7")
 
+}if(age <= 10){
+    console.log(age);
+    alert("The ticket price is $7")
+
+}if(time === 3){
+    console.log(time);
+    alert("The ticket price is $7")
+
+}if(time === 4){
+    console.log(time);
+    alert("The ticket price is $7")
+
+}if(time === 5){
+    console.log(time);
+    alert("The ticket price is $7")
+
+}else if(age){
+    console.log(age);
+    alert("The ticket price is $12")
+
+}else if(time){
+    console.log(time)
+    alert("The ticket price is $12")
+
+}
