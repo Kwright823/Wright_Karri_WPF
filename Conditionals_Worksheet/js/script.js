@@ -45,4 +45,24 @@ if(miles > 200){
 //Group 2
 //Check the Login
 
-var userName 
+var userName = "Fullsail987";
+var passWord = "Passw0rd"; //worst password EVER
+
+var userEnter = prompt("Please enter your username.");
+var passEnter = prompt("Please enter your password.");
+
+if(userEnter === userName){
+    console.log("Username is a match.");
+
+}if(passEnter === passWord){
+    console.log("Password is a match.");
+    alert("Welcome, Fullsail987!")
+
+}else if(userEnter != userName){
+    console.log("User not found!");
+    alert("User not found. Try again.")
+
+}else if(passEnter != passWord){
+    console.log("Password does not match our records.");
+    alert("Password does not match our records.")
+}
