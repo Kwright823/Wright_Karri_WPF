@@ -45,7 +45,7 @@ if(miles > 200){
 //Group 2
 //Check the Login
 
-var userName = "Fullsail987";
+/*var userName = "Fullsail987";
 var passWord = "Passw0rd"; //worst password EVER
 
 var userEnter = prompt("Please enter your username.");
@@ -66,3 +66,17 @@ if(userEnter === userName){
     console.log("Password does not match our records.");
     alert("Password does not match our records.")
 }
+/*
+
+ */
+//Group 3
+//Movie Ticket Price
+
+var RegPrice = 12;
+var seniorChild = 7;
+var matinee = 7;
+
+var time = prompt("What time does the movie start?");
+var age = prompt("What is your age?");
+
+
