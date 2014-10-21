@@ -9,6 +9,10 @@ var cels = unit - 32 * .5556;
 var fahr = unit * 9 / 5 + 32;
 
 if(temp = "C"){
+    console.log("The temperature is " + cels + " degrees Celsius.");
+    alert("The temperature is " + cels + " degrees Celsius.")
 
-
+}else if(temp = "F"){
+    console.log("The temperature is " + fahr + " degrees Fahrenheit.");
+    alert("The temperature is " + fahr + " degrees Fahrenheit.")
 }
