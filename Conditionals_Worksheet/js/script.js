@@ -2,17 +2,19 @@
 
 //Celsius to Fahrenheit converter
 var unit = prompt("Please enter the unit of degrees.");
+console.log(unit);
+
 var temp = prompt("Are we converting to Celsius or to Fahrenheit?" +
     "\n C for Celsius. F for Fahrenheit.");
+console.log(temp);
 
-var cels = unit - 32 * .5556;
+var cels = (unit - 32) * .5556;
 var fahr = unit * 9 / 5 + 32;
 
-if(temp = "C"){
+if(temp === "C"){
     console.log("The temperature is " + cels + " degrees Celsius.");
     alert("The temperature is " + cels + " degrees Celsius.")
-
-}else if(temp = "F"){
+}else if(temp === "F"){
     console.log("The temperature is " + fahr + " degrees Fahrenheit.");
     alert("The temperature is " + fahr + " degrees Fahrenheit.")
 }
