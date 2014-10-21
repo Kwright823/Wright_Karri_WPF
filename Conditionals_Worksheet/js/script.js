@@ -43,15 +43,6 @@ if(miles > 200){
 
  */
 //Group 2
-//Grade Letter Calculator
+//Check the Login
 
-
-alert("Please enter your scores you have received on your assignments in class.");
-
-var grade1 = ("Please enter assignment score 1.");
-var grade2 = ("Please enter assignment score 2.");
-var grade3 = ("Please enter assignment score 3.");
-var grade4 = ("Please enter assignment score 4.");
-var grade5 = ("Please enter assignment score 5.");
-
-var gradePer = (grade1 + grade2 + grade3 + grade4 + grade5) /
+var userName 
