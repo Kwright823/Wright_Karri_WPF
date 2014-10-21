@@ -72,39 +72,29 @@ if(userEnter === userName){
 //Group 3
 //Movie Ticket Price
 
-var RegPrice = 12;
-var seniorChild = 7;
-var matinee = 7;
+/*var age = prompt("What is your age?");
 
-var time = prompt("What time does the movie start?");
-var age = prompt("What is your age?");
-
-if(age >= 55){
-    console.log(age);
+if(age >= 55 && age <= 10){
+    console.log("The ticket price is $7");
     alert("The ticket price is $7")
 
-}if(age <= 10){
-    console.log(age);
-    alert("The ticket price is $7")
-
-}if(time === 3){
-    console.log(time);
-    alert("The ticket price is $7")
-
-}if(time === 4){
-    console.log(time);
-    alert("The ticket price is $7")
-
-}if(time === 5){
-    console.log(time);
-    alert("The ticket price is $7")
-
-}else if(age){
-    console.log(age);
-    alert("The ticket price is $12")
-
-}else if(time){
-    console.log(time)
+}else if(!(age >= 55 && age <= 10)){
+    console.log("The ticket price is $12");
     alert("The ticket price is $12")
 
 }
+var time = prompt("What time does the movie start?");
+
+if(time === 3 && time === 4 && time === 5){
+    console.log("The ticket price is $7");
+    alert("The ticket price is $7")
+
+}else if(!(time === 3 && time === 4 && time === 5)){
+    console.log("The ticket price is $12");
+    alert("The ticket price is $12")
+
+}
+
+/*
+
+ */
