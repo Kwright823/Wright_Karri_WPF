@@ -24,7 +24,7 @@ if(temp === "C"){
 //Last Chance for Gas!
 //MPG, gauge reading of gas in tank (in %), tank capacity (gal)
 
-var mpg = prompt("Please enter your car's MPG.");
+/*var mpg = prompt("Please enter your car's MPG.");
 var gasReading = prompt("How much is currently in your gas tank (in %).");
 var tankCap = prompt("What is the capacity of your tank?");
 
@@ -39,4 +39,19 @@ if(miles > 200){
     alert("You only have " + miles + " miles left in your gas tank, better get gas now while you can.")
 }
 
+/*
 
+ */
+//Group 2
+//Grade Letter Calculator
+
+
+alert("Please enter your scores you have received on your assignments in class.");
+
+var grade1 = ("Please enter assignment score 1.");
+var grade2 = ("Please enter assignment score 2.");
+var grade3 = ("Please enter assignment score 3.");
+var grade4 = ("Please enter assignment score 4.");
+var grade5 = ("Please enter assignment score 5.");
+
+var gradePer = (grade1 + grade2 + grade3 + grade4 + grade5) /
