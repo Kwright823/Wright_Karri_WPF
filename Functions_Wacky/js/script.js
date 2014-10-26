@@ -19,7 +19,9 @@ if(kid1 === "Ava"){
 var bread = prompt("Do you have bread?");
 
 if(bread === "yes"){
-    console.log("Make a sandwich.")
+    console.log("Make a sandwich.");
+    alert("Make a sandwich.")
 }else{
-    console.log("Use a tortilla.")
+    console.log("Use a tortilla.");
+    alert("Use a tortilla.")
 }
