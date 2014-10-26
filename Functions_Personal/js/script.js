@@ -6,8 +6,8 @@
 //Home renovations
 
 var perCheck = 100
-var decor = 400
 var budget = 500
+var decor = prompt("How much is the item you want to buy?");
 
 if(decor < perCheck && budget > 500){
     console.log("We have enough to buy the decor.");
