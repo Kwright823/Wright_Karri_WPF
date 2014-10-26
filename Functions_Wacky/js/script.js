@@ -12,5 +12,10 @@ var bread = ("Do you have bread?");
 if(kid1 === "Ava"){
     console.log("Make Ava a PB&J or Nutella Sandwich.")
 }else{
-    console.log("Make JJ a ")
+    console.log("Make JJ a bologna or PB&J sandwich")
+}
+if(bread === "yes"){
+    console.log("Make a sandwich.")
+}else{
+    console.log("Use a tortilla.")
 }
