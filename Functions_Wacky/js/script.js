@@ -6,7 +6,7 @@
 
 //What should I make my kids for lunch?
 
-var kid1 = prompt("Is this for Ava or JJ?");
+var kid1 = prompt("Are you making lunch for Ava or JJ?");
 
 if(kid1 === "Ava"){
     console.log("Make Ava a PB&J or Nutella Sandwich.");
