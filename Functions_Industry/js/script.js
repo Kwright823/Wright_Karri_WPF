@@ -2,15 +2,13 @@
 //Functions Industry Karri Wright October 2014
 
 //find the circumference
-/*var radius = prompt("What is the radius?");
-var diamet = radius * 2;
-var circumf = diamet * 3.14;
-console.log(circumf);
-alert("The circumference is " + circumf);
-*/
 
-var circumf = function(radius, diamet){
-    
+var calcCircumf = function(radius, diamet){
+    var circumf = (radius * 2) * 3.14;
+    return circumf;
 }
 
+var a = calcCircumf(10, 20);
+
+console.log(a);
 
